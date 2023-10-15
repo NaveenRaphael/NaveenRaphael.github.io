@@ -58,7 +58,7 @@
 		</div>
 
 		<div
-			class=" flex flex-wrap place-content-around justify-evenly justify-items-stretch gap-1 gap-3 object-center p-10"
+			class=" flex flex-wrap place-content-around justify-evenly justify-items-stretch gap-3 object-center p-10"
 		>
 			<MyRoutes />
 			<MyRoutes />
