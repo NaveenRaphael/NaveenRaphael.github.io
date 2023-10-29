@@ -13,6 +13,7 @@ export default {
     extend: {
 			colors: { accent, gray },
     },
+    
   },
   plugins: [require('@tailwindcss/typography')],
 }
