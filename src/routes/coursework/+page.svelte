@@ -1,22 +1,22 @@
 <script lang="ts">
 	let courses = [
-		'Control of Automotice Systems',
+		'Biomechanics',
+		'Deep Learning in Computer Vision',
+		'Mechanics and Control of Serial Manipulators',
+		'Control of Automotive Systems',
 		'Non-Linear Control',
-		'Measurements, Instrumentation and Control',
 		'Process Optimisation',
 		'Optimal Control',
 		'Non-Linear Dynamics',
 		'Graph Theory',
 		'Linear Algebra',
 		'Signal Processing of Mechanical Systems',
-		'Mechanics and Control of Serial Manipulators',
 		'Virtual Reality Engineering',
-		'Deep Learning in Computer Vision',
+		'Computational Methods in Engineering',
 		'Introduction to Data Analysis',
-		'Finite Element Analysis',
-		'Biomechanics',
+		'Measurements, Instrumentation and Control',
 		'Variational Principles in Mechanics',
-		'Computational Methods in Engineering'
+		'Finite Element Analysis'
 	];
 </script>
 

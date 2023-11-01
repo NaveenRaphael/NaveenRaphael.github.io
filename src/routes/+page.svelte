@@ -1,12 +1,6 @@
-<script lang="ts">
-	import ThemeEnum, { theme_toggle_letter } from '$lib/ThemeEnum.svelte';
-</script>
-
-<!-- svelte-ignore a11y-no-static-element-interactions -->
-
-<div class="float-right w-1/2 lg:w-1/4">
+<!-- <div class="float-right w-1/2 lg:w-1/4">
 	<img src="mepic.png" alt="me" class="" />
-</div>
+</div> -->
 <div title="Introduction" class="p-9 lg:min-w-fit lg:p-20 lg:text-center">
 	<h1 class="text-5xl lg:text-7xl">Hello there!</h1>
 	<p>This is the personal site of Naveen Raphael!</p>
