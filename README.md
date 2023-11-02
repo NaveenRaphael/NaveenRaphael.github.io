@@ -4,7 +4,7 @@ Made this using Sveltekit and Tailwind CSS, and I will update this as I make pro
 
 # To Do:
 
-[ ] - Make better buttons
-[ ] - Flexboxes for the coursework tab
-[ ] - Add a good picture of me
-[ ] - Update links
+- [ ] Make better buttons
+- [ ] Flexboxes for the coursework tab
+- [ ] Add a good picture of me
+- [ ] Update links
