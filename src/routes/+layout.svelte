@@ -12,8 +12,6 @@
 	}
 
 	import MyNavBar from './myNavBar.svelte';
-
-	export const prerender = true;
 </script>
 
 <div class="w-screen" class:dark>
