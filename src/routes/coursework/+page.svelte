@@ -18,16 +18,28 @@
 		'Variational Principles in Mechanics',
 		'Finite Element Analysis'
 	];
+
+	let TA_stuff = [
+		[
+			'The Joy of Programming in Python',
+			'https://www.youtube.com/playlist?list=PLmwjlGnmkZNvSAdN63aiGz9YML1Imdc65'
+		],
+		['Mechatronics', 'https://www.youtube.com/playlist?list=PLmwjlGnmkZNsg-e4GDFsaStVmi49QHKCg'],
+		['Engineering Drawing'],
+		['Finite Element Analysis']
+	];
 </script>
 
 <div class="p-9 lg:p-20">
-	This page will also later contain the links to the courses I have taken
 	<h3 class="text-5xl">Courses I have taken</h3>
 	<ul>
-		<li>The Joy of Programming in Python</li>
-		<li>Mechatronics</li>
-		<li>Engineering Drawing</li>
-		<li>Finite Element Analysis</li>
+		{#each TA_stuff as t}
+			<li>
+				<b>{t[0]}</b>
+				{#if t.length > 1}<span>: <a href={t[1]}>Click here for the videos!</a> </span>
+				{/if}
+			</li>
+		{/each}
 	</ul>
 	<h3 class="text-5xl">Courses I have done</h3>
 	<ul>
