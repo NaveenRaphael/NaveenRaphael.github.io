@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="prose relative m-5 flex-none basis-1/5 rounded-full border-4 border-transparent px-2 pb-2 text-center text-2xl transition-all hover:prose-neutral dark:prose-invert hover:scale-125 hover:border-accent-600 lg:px-5"
+	class="prose relative m-4 flex-none basis-1/5 rounded-full border-4 border-transparent px-2 pb-2 text-center text-2xl transition-all hover:prose-neutral dark:prose-invert hover:scale-125 hover:border-accent-600 lg:px-5"
 >
 	<IconSvg {icon_type} />
 	{#if t != ''}

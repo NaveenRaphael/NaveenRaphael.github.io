@@ -20,6 +20,8 @@
 	];
 
 	let TA_stuff = [
+		['Human Movement Science', 'https://nptel.ac.in/courses/109106401'],
+		['Manufacturing Processes (ME2300: Jan-May 2024)'],
 		[
 			'The Joy of Programming in Python',
 			'https://www.youtube.com/playlist?list=PLmwjlGnmkZNvSAdN63aiGz9YML1Imdc65'
@@ -30,7 +32,7 @@
 	];
 </script>
 
-<div class="p-9 lg:p-20">
+<div class="m-1 p-9 lg:px-20 lg:py-10">
 	<h3 class="text-5xl">Courses I have taken</h3>
 	<ul>
 		{#each TA_stuff as t}
