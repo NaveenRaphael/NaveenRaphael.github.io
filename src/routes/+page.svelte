@@ -7,7 +7,7 @@
 	<p>
 		I am currently pursuing my Ph.D from the Department of Mechanical Engineering, Indian Institute
 		of Technology, Madras, under the guidance of <a
-			href="https://mech.iitm.ac.in/profile.php?fname=Manish%20Anand">Dr Manish Anand</a
+			href="https://mech.iitm.ac.in/profile.php?fname=manand">Dr Manish Anand</a
 		>. My research interest falls into the broad realm of biomechanics and control. Currently, I am
 		working on a 3D Pose Estimation solution.
 	</p>
