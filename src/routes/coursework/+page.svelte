@@ -37,7 +37,7 @@
 </script>
 
 <div class="m-1 p-9 lg:px-20 lg:py-10">
-	<h3 class="text-5xl">Courses I have taken</h3>
+	<h3 class="text-5xl">Courses I have taught</h3>
 	<ul>
 		{#each TA_stuff as t}
 			<li>
