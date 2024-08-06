@@ -20,13 +20,17 @@
 	];
 
 	let TA_stuff = [
-		['Human Movement Science', 'https://nptel.ac.in/courses/109106401'],
+		['Physics for Class XI (offline in Bala Vidya Mandir!)'],
+		['Human Movement Science (NPTEL)'],
+		// ['Human Movement Science (NPTEL)', 'https://nptel.ac.in/courses/109106401'],
 		['Manufacturing Processes (ME2300: Jan-May 2024)'],
-		[
-			'The Joy of Programming in Python',
-			'https://www.youtube.com/playlist?list=PLmwjlGnmkZNvSAdN63aiGz9YML1Imdc65'
-		],
-		['Mechatronics', 'https://www.youtube.com/playlist?list=PLmwjlGnmkZNsg-e4GDFsaStVmi49QHKCg'],
+		['The Joy of Programming in Python (NPTEL)'],
+		// [
+		// 	'The Joy of Programming in Python (NPTEL)',
+		// 	'https://www.youtube.com/playlist?list=PLmwjlGnmkZNvSAdN63aiGz9YML1Imdc65'
+		// ],
+		['Mechatronics (NPTEL)'],
+		// ['Mechatronics', 'https://www.youtube.com/playlist?list=PLmwjlGnmkZNsg-e4GDFsaStVmi49QHKCg'],
 		['Engineering Drawing'],
 		['Finite Element Analysis']
 	];
