@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { Icon } from '$lib/IconEnum.svelte';
 
-	export let icon_type: Icon;
+	interface Props {
+		icon_type: Icon;
+	}
+
+	let { icon_type }: Props = $props();
 </script>
 
 <svg fill="none" class="inline-block h-6 w-6 stroke-black stroke-[1.5] dark:stroke-white">

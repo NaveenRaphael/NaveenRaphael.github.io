@@ -2,7 +2,7 @@
 	import '../app.css';
 	import { to_str, theme, theme_toggle_letter } from '$lib/ThemeEnum.svelte';
 
-	$: dark = to_str($theme);
+	let dark = $derived(to_str($theme));
 
 	function key_press(e: KeyboardEvent) {
 		if (e.key == theme_toggle_letter) {
@@ -12,6 +12,11 @@
 	}
 
 	import MyNavBar from './myNavBar.svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <div class="w-screen" class:dark>
@@ -19,8 +24,8 @@
 		<MyNavBar />
 		<hr class="bg-accent-900 dark:bg-white" />
 		<div class="prose min-w-full text-2xl dark:prose-invert">
-			<slot />
+			{@render children?.()}
 		</div>
 	</div>
 </div>
-<svelte:window on:keypress={key_press} />
+<svelte:window onkeypress={key_press} />

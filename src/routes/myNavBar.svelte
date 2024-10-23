@@ -14,7 +14,7 @@
 	{/each}
 
 	<!-- Theme toggle -->
-	<button on:click={theme.toggle}>
+	<button onclick={theme.toggle}>
 		<IconAndName icon_type={is_dark($theme) ? Icon.Dark_Theme : Icon.Light_Theme} />
 	</button>
 </nav>

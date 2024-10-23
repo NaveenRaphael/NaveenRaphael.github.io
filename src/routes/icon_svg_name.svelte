@@ -2,7 +2,12 @@
 	import { Icon, link_of_icon, text_of_icon } from '$lib/IconEnum.svelte';
 	import IconSvg from './icon_svg.svelte';
 
-	export let icon_type: Icon;
+	//New in Svelte5; the nature of the input to this file is as follows
+	interface Props {
+		icon_type: Icon;
+	}
+
+	let { icon_type }: Props = $props();
 	let t = text_of_icon(icon_type);
 </script>
 
